@@ -64,3 +64,6 @@ if [ -x "$(command -v nvim)" ]; then
 	alias vim='nvim'
 fi
 
+alias gs='git status'
+alias go='git checkout'
+alias gd='git diff'

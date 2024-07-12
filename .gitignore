@@ -6,3 +6,5 @@
 *work*
 *personal*
 *.orig
+**/.DS_Store
+.idea/

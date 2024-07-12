@@ -15,6 +15,8 @@ export -UT INFOPATH infopath  # -T creates a "tied" pair; see below.
 path=(
     $path
     ~/.local/bin
+    /opt/homebrew/bin
+    /opt/homebrew/sbin
 )
 
 # Add your functions to your $fpath, so you can autoload them.

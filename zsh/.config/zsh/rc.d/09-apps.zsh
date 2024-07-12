@@ -39,3 +39,13 @@ load_jenv() {
 }
 
 lazyload jenv java mvn -- load_jenv
+
+#load_homebrew() {
+#    local brew_prefix="/opt/homebrew"
+#
+#    if [ -d "$brew_prefix" ]; then
+#        export PATH="$brew_prefix/bin:$brew_prefix/sbin:$PATH"
+#    fi
+#}
+#
+#load_homebrew
